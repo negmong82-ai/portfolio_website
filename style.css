@@ -524,7 +524,7 @@ a {
 
 /* Layout: Large (7 cols) + Small (5 cols) + Full (12 cols) */
 .project--large {
-  grid-column: 1 / 8;
+  grid-column: 1 / 7;
 }
 
 .project--large .project__img-wrap {
@@ -532,7 +532,7 @@ a {
 }
 
 .project--small {
-  grid-column: 8 / 13;
+  grid-column: 7 / 13;
 }
 
 .project--small .project__img-wrap {
