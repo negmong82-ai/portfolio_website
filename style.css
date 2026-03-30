@@ -508,6 +508,27 @@ a {
   font-size: 0.88rem;
   color: var(--clr-muted);
   line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Challenge Stats Badges */
+.project__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.stat {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--clr-dark);
+  background: var(--clr-yellow);
+  padding: 4px 10px;
+  border-radius: 0;
+  white-space: nowrap;
 }
 
 /* Layout: Large (7 cols) + Small (5 cols) + Full (12 cols) */
@@ -562,13 +583,14 @@ a {
 }
 
 .about__headline {
-  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  font-size: clamp(2rem, 5.5vw, 4rem); /* Balanced size */
   font-weight: 800;
   letter-spacing: -0.03em;
-  line-height: 1.2;
+  line-height: 1.25; /* Spacious and airy */
   color: var(--clr-dark);
   position: sticky;
-  top: 100px;
+  top: 80px;
+  word-break: keep-all;
 }
 
 .about__right {
