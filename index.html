@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="넥몽(Negmong) | 코딩을 넘어 비즈니스를 설계하는 바이브 코더이자 AI 솔로프리너입니다." />
+  <meta property="og:title" content="넥몽 | Vibe Coder & AI Solopreneur Portfolio" />
+  <meta property="og:description" content="Domain Insight + AI Orchestration. I build business vibes." />
+  <title>넥몽 | Vibe Coder & AI Solopreneur</title>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" id="nav-logo">NEGMONG</a>
+      <nav class="nav__links" id="nav-links">
+        <a href="#work" class="nav__link" id="nav-work">Projects</a>
+        <a href="#about" class="nav__link" id="nav-about">Philosophy</a>
+        <a href="#contact" class="nav__link" id="nav-contact-link">Contact</a>
+        <a href="#contact" class="nav__cta" id="nav-cta">Work with AI →</a>
+      </nav>
+      <button class="nav__burger" id="nav-burger" aria-label="메뉴 열기">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#work" class="mobile-menu__link" id="mobile-work">Projects</a>
+    <a href="#about" class="mobile-menu__link" id="mobile-about">Philosophy</a>
+    <a href="#contact" class="mobile-menu__link" id="mobile-contact">Contact</a>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__content reveal">
+        <p class="hero__label">Vibe Coder · AI Orchestrator · Solopreneur</p>
+        <h1 class="hero__headline">
+          상상을 비즈니스로,<br />
+          AI로 설계하고 감각으로<br />
+          완성합니다.
+        </h1>
+        <p class="hero__sub">코드를 한 줄씩 적는 대신, 도메인 통찰과 최신 AI를 지휘하여<br />현실의 문제를 해결하는 비즈니스 구조를 가장 빠르게 구축합니다.</p>
+        <a href="#work" class="hero__scroll-btn" id="hero-scroll">
+          <span>비즈니스 케이스 보기</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Asymmetric Image Grid -->
+    <div class="hero__grid reveal-delay">
+      <div class="hero__grid-item hero__grid-item--1">
+        <img src="assets/grid-1.jpg" alt="AI 비즈니스 모델링" loading="lazy" />
+      </div>
+      <div class="hero__grid-item hero__grid-item--2">
+        <img src="assets/grid-2.jpg" alt="AI 오케스트레이션 과정" loading="lazy" />
+      </div>
+      <div class="hero__grid-item hero__grid-item--3">
+        <img src="assets/grid-3.jpg" alt="브랜딩 감각" loading="lazy" />
+      </div>
+      <div class="hero__grid-item hero__grid-item--4">
+        <img src="assets/grid-4.jpg" alt="AI 솔루션 랜딩" loading="lazy" />
+      </div>
+      <div class="hero__grid-item hero__grid-item--5">
+        <img src="assets/grid-5.jpg" alt="UX 기획 감각" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE ===================== -->
+  <div class="marquee-wrapper">
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Prompt Engineering</span><span class="dot">·</span>
+        <span>AI Orchestration</span><span class="dot">·</span>
+        <span>Business Strategy</span><span class="dot">·</span>
+        <span>Domain Insight</span><span class="dot">·</span>
+        <span>Product Vision</span><span class="dot">·</span>
+        <span>Solopreneurship</span><span class="dot">·</span>
+        <span>Design Sense</span><span class="dot">·</span>
+        <span>Creative Workflow</span><span class="dot">·</span>
+        <!-- Duplicate for seamless loop -->
+        <span>Prompt Engineering</span><span class="dot">·</span>
+        <span>AI Orchestration</span><span class="dot">·</span>
+        <span>Business Strategy</span><span class="dot">·</span>
+        <span>Domain Insight</span><span class="dot">·</span>
+        <span>Product Vision</span><span class="dot">·</span>
+        <span>Solopreneurship</span><span class="dot">·</span>
+        <span>Design Sense</span><span class="dot">·</span>
+        <span>Creative Workflow</span><span class="dot">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== WORK / PROJECTS ===================== -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">AI-DRIVEN SOLUTIONS</p>
+        <h2 class="section-title">비즈니스 가치 창출 사례</h2>
+      </div>
+
+      <div class="projects">
+
+        <!-- Project 1 - Large -->
+        <article class="project project--large reveal" id="project-1">
+          <a href="#" class="project__link" aria-label="The Daily Vibe 프로젝트 보기">
+            <div class="project__img-wrap">
+              <img src="assets/project-1.jpg" alt="AI 심리 케어 서비스" loading="lazy" />
+              <div class="project__overlay">
+                <span class="project__overlay-text">Case Study →</span>
+              </div>
+            </div>
+            <div class="project__info">
+              <p class="project__category">AI Business · Full Orchestration</p>
+              <h3 class="project__title">The Daily Vibe</h3>
+              <p class="project__desc">단순한 일기 앱을 넘어 감정 데이터를 분석하고 케어하는 AI 비즈니스 모델링 사례.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 2 - Small -->
+        <article class="project project--small reveal" id="project-2">
+          <a href="#" class="project__link" aria-label="Next Furniture 프로젝트 보기">
+            <div class="project__img-wrap">
+              <img src="assets/project-2.jpg" alt="감각적인 이커머스 브랜딩" loading="lazy" />
+              <div class="project__overlay">
+                <span class="project__overlay-text">Case Study →</span>
+              </div>
+            </div>
+            <div class="project__info">
+              <p class="project__category">E-Commerce · Strategy · Brand Sense</p>
+              <h3 class="project__title">Next Furniture</h3>
+              <p class="project__desc">도메인 시장 분석을 기반으로 AI를 통해 자동화된 운영 구조를 설계한 가구 스토어.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 3 - Full width -->
+        <article class="project project--full reveal" id="project-3">
+          <a href="#" class="project__link" aria-label="GlowTech 프로젝트 보기">
+            <div class="project__img-wrap">
+              <img src="assets/project-3.jpg" alt="AI 랜딩페이지 설계" loading="lazy" />
+              <div class="project__overlay">
+                <span class="project__overlay-text">Case Study →</span>
+              </div>
+            </div>
+            <div class="project__info">
+              <p class="project__category">UX Concept · AI Fast Build · Branding</p>
+              <h3 class="project__title">GlowTech Launch Pad</h3>
+              <p class="project__desc">프리미엄 제품 런칭을 위한 시각적 감각과 AI 워크플로우로 단 3일 만에 완성한 랜딩 솔루션.</p>
+            </div>
+          </a>
+        </article>
+
+      </div>
+
+      <p class="work__tagline reveal">AI는 도구일 뿐, 핵심은 문제를 해결하는 도메인의 통찰력입니다.</p>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT & VALUES ===================== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid reveal">
+        <div class="about__left">
+          <h2 class="about__headline">도메인 지식과 AI 감각으로,<br />설계를 가장 빠르게 현실로 만듭니다.</h2>
+        </div>
+        <div class="about__right">
+          <div class="about__block">
+            <p class="about__block-label">AI ORCHESTRATION</p>
+            <h3 class="about__block-title">AI를 통한 효율 극대화</h3>
+            <p class="about__block-desc">모든 구현 과정을 직접 코딩하는 대신, 최적의 AI 모델을 오케스트레이션하여 제품 출시까지의 리드 타임을 압도적으로 줄입니다.</p>
+            <a href="#contact" class="about__link" id="about-fast-link">협업 프로세스 보기 →</a>
+          </div>
+          <div class="about__block">
+            <p class="about__block-label">STRATEGIC SENSE</p>
+            <h3 class="about__block-title">감각적인 비즈니스 설계</h3>
+            <p class="about__block-desc">사용자가 반응하는 '바이브'를 읽습니다. 기술적인 기능 구현 이상의 '끌리는 브랜드'와 '비즈니스 가치'에 집중합니다.</p>
+            <a href="#contact" class="about__link" id="about-journey-link">비즈니스 철학 알아보기 →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills reveal">
+        <p class="section-label">NECESSARY INTELLIGENCE</p>
+        <div class="skills__grid">
+          <div class="skill-item" id="skill-html">
+            <span class="skill-icon">🧠</span>
+            <span class="skill-name">Prompter</span>
+          </div>
+          <div class="skill-item" id="skill-css">
+            <span class="skill-icon">🎨</span>
+            <span class="skill-name">Sense</span>
+          </div>
+          <div class="skill-item" id="skill-js">
+            <span class="skill-icon">⚙️</span>
+            <span class="skill-name">Orchestra</span>
+          </div>
+          <div class="skill-item" id="skill-react">
+            <span class="skill-icon">💼</span>
+            <span class="skill-name">Domain</span>
+          </div>
+          <div class="skill-item" id="skill-node">
+            <span class="skill-icon">📊</span>
+            <span class="skill-name">Strategy</span>
+          </div>
+          <div class="skill-item" id="skill-mongo">
+            <span class="skill-icon">🚀</span>
+            <span class="skill-name">Launch</span>
+          </div>
+          <div class="skill-item" id="skill-git">
+            <span class="skill-icon">💎</span>
+            <span class="skill-name">Quality</span>
+          </div>
+          <div class="skill-item" id="skill-figma">
+            <span class="skill-icon">✨</span>
+            <span class="skill-name">Vibe</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA SECTION ===================== -->
+  <section class="cta" id="cta">
+    <div class="container">
+      <div class="cta__inner reveal">
+        <span class="cta__icon">✨</span>
+        <h2 class="cta__headline">AI와 함께하는 비즈니스,<br />같이 시작해볼까요?</h2>
+        <p class="cta__sub">모든 위대한 프로젝트는 가벼운 대화와 감각적인 영감에서 시작됩니다.<br />당신의 상상을 현실로 오케스트레이션하세요.</p>
+        <a href="mailto:hello@negmong.com" class="cta__btn" id="cta-btn">Start a Project →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <p class="footer__label">GET IN TOUCH</p>
+          <a href="mailto:hello@negmong.com" class="footer__email" id="footer-email">hello@negmong.com</a>
+          <div class="footer__links">
+            <a href="#" class="footer__link" id="footer-github">GitHub</a>
+            <a href="#" class="footer__link" id="footer-linkedin">LinkedIn</a>
+            <a href="#" class="footer__link" id="footer-instagram">Instagram</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <p class="footer__label">VIBE CODER NEGMONG</p>
+          <p class="footer__copy">© 2026 넥몽 (NEGMONG)<br />Orchestrated with AI.</p>
+          <p class="footer__made">Driven by Domain Wisdom · AI Technology</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Giant Footer Brand -->
+    <div class="footer__brand" aria-hidden="true">NEGMONG</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
